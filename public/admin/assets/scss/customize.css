@@ -1,0 +1,175 @@
+/***colors****/
+/***********mixins************/
+/************************ ///////// ********************/
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: none;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c38ca3;
+  outline: 1px solid #fff;
+  border-radius: 30px;
+}
+
+::-moz-selection {
+  background: #c38ca3;
+  color: #fff;
+}
+
+::selection {
+  background: #c38ca3;
+  color: #fff;
+}
+
+/*********/
+/***************************************************************/
+.navbar-default {
+  background-color: #17091a !important;
+  border-top-color: #c38ca3;
+}
+
+.side-menu {
+  background: #17091a !important;
+}
+
+.side-menu::-webkit-scrollbar {
+  width: 9px;
+}
+
+.side-menu::-webkit-scrollbar-track {
+  -webkit-box-shadow: none;
+  background-color: #fff;
+}
+
+.side-menu::-webkit-scrollbar-thumb {
+  background-color: #c38ca3;
+  outline: 1px solid #fff;
+  border-radius: 30px;
+}
+
+#sidebar-menu > ul > li > a {
+  color: #fff;
+  background-color: transparent;
+}
+
+#sidebar-menu > ul > li > a:hover {
+  color: #c38ca3;
+}
+
+#sidebar-menu > ul > li > a.active {
+  border-right: 3px solid #c38ca3;
+  color: #c38ca3 !important;
+}
+
+#sidebar-menu .subdrop {
+  border-right: 3px solid #c38ca3;
+  color: #c38ca3 !important;
+}
+
+#sidebar-menu ul ul a:hover {
+  color: #c38ca3;
+}
+
+#wrapper.enlarged .left.side-menu #sidebar-menu ul > li:hover > a {
+  color: #c38ca3;
+  border-color: #c38ca3;
+}
+
+#wrapper.enlarged .left.side-menu #sidebar-menu ul > li:hover > ul a:hover {
+  color: #c38ca3;
+}
+
+/**************/
+.breadcrumb a {
+  color: #c38ca3;
+}
+
+.btn-purple {
+  background-color: #c38ca3 !important;
+  border: 1px solid #c38ca3 !important;
+}
+
+.btn-purple:hover, .btn-purple:focus .btn-purple:active {
+  background-color: #17091a !important;
+  border-color: #17091a !important;
+}
+
+.btn-primary {
+  background-color: #fed4e5 !important;
+  border: 1px solid #fed4e5 !important;
+  color: #000000 !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #c38ca3 !important;
+  border-color: #c38ca3 !important;
+  color: #fff !important;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  background-color: #c38ca3;
+  border-color: #c38ca3;
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before, table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child:before {
+  background-color: #c38ca3;
+}
+
+.text-center.form-group.row .btn-success {
+  max-width: 200px;
+  background-color: #17091a !important;
+  border-color: #17091a !important;
+}
+
+.text-center.form-group.row .btn-success:hover, .text-center.form-group.row .btn-success:focus, .text-center.form-group.row .btn-success:active {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+.form-group.row.col-12 .btn-primary {
+  max-width: 200px;
+  margin-inline: auto;
+}
+
+.list-inline .text-primary {
+  color: #c38ca3 !important;
+}
+
+/****************** Login *******************/
+.account-pages {
+  background: url(../images/slider1.webp) center;
+}
+
+.wrapper-page .card-box {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.wrapper-page .card-box h4.text-uppercase.font-bold.m-b-0 {
+  color: #fff;
+}
+
+.wrapper-page .card-box .btn-bordred.btn-custom {
+  background-color: #c38ca3 !important;
+  border-color: #c38ca3 !important;
+  max-width: 200px;
+  height: 45px;
+  font-size: 16px;
+}
+
+.wrapper-page .card-box .btn-bordred.btn-custom:hover, .wrapper-page .card-box .btn-bordred.btn-custom:focus, .wrapper-page .card-box .btn-bordred.btn-custom:active {
+  background-color: #17091a !important;
+  border-color: #17091a !important;
+}
+
+/****************** Resonsive *******************/
+@media screen and (max-width: 767px) {
+  div.dataTables_paginate {
+    margin-top: 10px;
+  }
+}
+/*# sourceMappingURL=customize.css.map */
